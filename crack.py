@@ -9,8 +9,6 @@ word2 = ''
 
 path = './dic-0294'
 
-
-
 listing = os.listdir(path)
 for infile in listing:
     file = open(path + '/' + infile, 'r')
